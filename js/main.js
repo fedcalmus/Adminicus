@@ -62,7 +62,9 @@ $(function() {
                 format:'d.m.Y'
             });
         }
+
     };
+
 
 
     /* ------ Plugins Init ------ */

@@ -76,7 +76,22 @@
                             <label for="file">Image Upload</label>
                         </div>
                         <div class="formRightContent ">
-                            <input type="file" name="file" id="file" class="inputfile"/>
+                            <div class="file-upload">
+                                <button class=" btn file-upload-btn" id="file" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
+
+                                <div class="image-upload-wrap">
+                                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                                    <div class="drag-text">
+                                        <h3>Drag and drop a file or select add Image</h3>
+                                    </div>
+                                </div>
+                                <div class="file-upload-content">
+                                    <img class="file-upload-image" src="#" alt="your image" />
+                                    <div class="image-title-wrap">
+                                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="formRow">
@@ -151,6 +166,10 @@
                         <div class="formRightContent">
                             <textarea placeholder="Add general information..." rows="4" cols="50" class="genInput txtareaMd" title="generalInfo" id="description"></textarea>
                         </div>
+                    </div>
+                    <div class="addFormButtons">
+                        <button id="hide" class="cancelButton btn popupButtons transition btnMd">Cancel</button>
+                        <button class="addButton btn transition btnMd">Confirm</button>
                     </div>
                 </form>
             </div>
