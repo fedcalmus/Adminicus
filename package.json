@@ -1,0 +1,31 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "Admin portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedcalmus/Admin.git"
+  },
+  "keywords": [
+    "admin"
+  ],
+  "author": "Elina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedcalmus/Admin/issues"
+  },
+  "homepage": "https://github.com/fedcalmus/Admin#readme",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "jquery": "^3.3.1",
+    "jquery-datetimepicker": "^2.5.20",
+    "js": "^0.1.0",
+    "magnific-popup": "^1.1.0",
+    "primer-tooltips": "^1.5.3",
+    "select2": "^4.0.3"
+  }
+}

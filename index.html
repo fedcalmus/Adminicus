@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adminicus</title>
+
+    <!-- Start Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
+    <!-- Favicon starts here -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome starts here -->
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css"  type="text/css"/>
+
+    <!-- Magnific pop up starts here -->
+    <link rel="stylesheet" href="node_modules/magnific-popup/dist/magnific-popup.css" type="text/css"/>
+
+    <!-- Animate css starts here -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+
+    <!-- Select2 styles start from here -->
+    <link rel="stylesheet" href="node_modules/select2/dist/css/select2.min.css">
+
+    <!-- datePicker styles start here -->
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/jquery.datetimepicker.css">
+
+    <!-- Main styles start here -->
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+<!--Header section starts here-->
+<header>
+    <div class="logo bgHeaderFooter">
+        <a href="index.html"><img src="img/fedcalmus.png" alt="logo"/></a>
+    </div>
+    <div class="container">
+        <a class="menuIcon menuToggle"><i class="fas fa-bars"></i></a>
+        <ul class="menuItems clearAfter">
+            <li class="dropdown floatedItem"><a href="#">Films</a>
+                <ul class="dropdownItems">
+                    <li><a href="#">List of films</a></li>
+                    <li><a class="" href="#">Add a film</a></li>
+                </ul>
+            </li>
+            <li class="dropdown floatedItem"><a href="#">Actors</a>
+                <ul class="dropdownItems">
+                    <li><a href="#">List of actors</a></li>
+                    <li><a href="#">Add an actor</a></li>
+                </ul>
+            </li>
+            <li class="floatedItem"><a href="#">About Hollywood</a></li>
+        </ul>
+    </div>
+</header>
+<!--Header section ends here-->
+<!--Main content starts here-->
+<section class="mainContent">
+    <div class="container ">
+        <h1 class="pageTitle">List of entertainment companies</h1>
+        <ul class="breadcrumbs">
+            <li><a href="index.html" class="transition">Home</a></li>
+            <li>List of Entertainment Companies</li>
+        </ul>
+        <fieldset class="tablefieldset clearAfter">
+            <legend>Entertainment companies</legend>
+            <div class="button">
+                <a href="addCompany.html" class="btn btnLg transition">Add Entertainment Company</a>
+            </div>
+            <!--Table content starts here-->
+            <div class="tableSection">
+                <table class="tableContent companyTable">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Foundation Date</th>
+                        <th>Revenue</th>
+                        <th>Highest-grossing film</th>
+                        <th>Tools</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td data-label="Name">Warner Bros.</td>
+                        <td data-label="Foundation Date">April 4, 1923</td>
+                        <td data-label="Revenue">US$ 12.992 billion (2015)</td>
+                        <td data-label="Highest-grossing film">Harry Potter and the Deathly Hallows</td>
+                        <td data-label="Tools">
+                            <ul class="toolIcons">
+                                <li><a href="#"><i class="far fa-edit"></i></a></li>
+                                <li><a href="#popup" class="open-popup-link"><i class="fas fa-trash"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">20th Century Fox.</td>
+                        <td data-label="Foundation Date">May 31, 1935</td>
+                        <td data-label="Revenue">US$ 1.77 billion (2015)</td>
+                        <td data-label="Highest-grossing film">Avatar</td>
+                        <td data-label="Tools">
+                            <ul class="toolIcons">
+                                <li><a href="#"><i class="far fa-edit"></i></a></li>
+                                <li><a href="#popup" class="open-popup-link"><i class="fas fa-trash"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">Warner Bros.</td>
+                        <td data-label="Foundation Date">April 4, 1923</td>
+                        <td data-label="Revenue">US$ 12.992 billion (2015)</td>
+                        <td data-label="Highest-grossing film">Harry Potter and the Deathly Hallows</td>
+                        <td data-label="Tools">
+                            <ul class="toolIcons">
+                                <li><a href="#"><i class="far fa-edit"></i></a></li>
+                                <li><a href="#popup" class="open-popup-link"><i class="fas fa-trash"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">20th Century Fox.</td>
+                        <td data-label="Foundation Date">May 31, 1935</td>
+                        <td data-label="Revenue">US$ 1.77 billion (2015)</td>
+                        <td data-label="Highest-grossing film">Avatar</td>
+                        <td data-label="Tools">
+                            <ul class="toolIcons">
+                                <li><a href="#"><i class="far fa-edit"></i></a></li>
+                                <li><a href="#popup" class="open-popup-link"><i class="fas fa-trash"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr><tr>
+                        <td data-label="Name">Warner Bros.</td>
+                        <td data-label="Foundation Date">April 4, 1923</td>
+                        <td data-label="Revenue">US$ 12.992 billion (2015)</td>
+                        <td data-label="Highest-grossing film">Harry Potter and the Deathly Hallows</td>
+                        <td data-label="Tools">
+                            <ul class="toolIcons">
+                                <li><a href="#"><i class="far fa-edit"></i></a></li>
+                                <li><a href="#popup" class="open-popup-link"><i class="fas fa-trash"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">20th Century Fox.</td>
+                        <td data-label="Foundation Date">May 31, 1935</td>
+                        <td data-label="Revenue">US$ 1.77 billion (2015)</td>
+                        <td data-label="Highest-grossing film">Avatar</td>
+                        <td data-label="Tools">
+                            <ul class="toolIcons">
+                                <li><a href="#"><i class="far fa-edit"></i></a></li>
+                                <li><a href="#popup" class="open-popup-link"><i class="fas fa-trash"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <ul class="pagination">
+                    <li><a class="disable" href="#">previous</a></li>
+                    <li><a class="active" href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">next</a></li>
+                </ul>
+            </div>
+        </fieldset>
+        <!--Table content ends here-->
+    </div>
+</section>
+<!--Main content ends here-->
+<!--Footer starts here-->
+<footer class="bgHeaderFooter">
+    <div class="container">
+        <p class="copyright"> &#169; X corporation 2018</p>
+    </div>
+</footer>
+<!--Footer ends here-->
+<!--Popup content starts here-->
+<div id="popup" class="popup mfp-hide">
+    <h3 class="popupHeading">Are you sure you want to delete?</h3>
+    <form action="">
+        <button id="hide" class="cancelButton btn popupButtons transition btnMd">Cancel</button>
+        <button class="confirmButton btn transition btnMd">Confirm</button>
+    </form>
+</div>
+<!--Popup content ends here-->
+<!--Scripts start here-->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/magnific-popup/dist/jquery.magnific-popup.js"></script>
+<script src="node_modules/select2/dist/js/select2.min.js"></script>
+<script src="js/main.js"></script>
+
+<!--Script ends here-->
+</body>
+</html>

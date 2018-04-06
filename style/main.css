@@ -1,0 +1,721 @@
+/* Reset CSS starts here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1.3;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 20px;
+}
+
+/* Reset CSS ends here */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: #e9eaef;
+    color: #1a1a1a;
+    padding-bottom:150px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1440px;
+    width:100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #0da2b1;
+}
+
+.bgHeaderFooter {
+    background-color: #21262c;
+    color: #ffffff;
+}
+
+.logo a:hover {
+    opacity: 0.6;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+.menuIcon {
+    display: none;
+}
+
+.dropdown:hover .dropdownItems {
+    display: block;
+}
+
+.dropdown:hover {
+    background-color: #323a3e;
+}
+
+.dropdownItems {
+    position: absolute;
+    background-color: #065a62;
+    z-index: 1;
+    display: none;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition:  0.3s ease-out;
+}
+
+.menuItems li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 25px;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition:  0.3s ease-out;
+}
+
+.menuItems li a:hover {
+    background-color: #21262c;
+    color: #efefef;
+}
+
+.floatedItem {
+    float: left;
+}
+
+.clearAfter::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+/* Breadcrumb styles start from here */
+
+.pageTitle {
+    padding-top: 25px;
+    color: #0da2b1;
+}
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.breadcrumbs li a {
+    font-size: 18px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.breadcrumbs li a:after {
+    content: "/";
+}
+
+.breadcrumbs li a:hover {
+    color:#0da2b1;
+}
+
+.breadcrumbs {
+    padding: 15px 0;
+}
+
+/* Breadcrumb end here */
+
+/* Fieldset and legend styles start from here */
+
+.tablefieldset {
+    border: 2px solid #0da2b1;
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
+
+.tablefieldset legend {
+    text-align: center;
+    color: #0da2b1;
+    padding: 0 30px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/* Fieldset and legend styles end here */
+
+/* Table styles start from here */
+
+.btn {
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.btnLg {
+    background: #0da2b1;
+    color: #ffffff;
+    padding: 19px 9px;
+    margin-bottom: 25px;
+}
+
+.btnMd {
+    padding: 15px 30px;
+}
+
+.transition {
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btnLg:hover {
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.btnLg:active {
+    background-color: #0b636b;
+    box-shadow: 3px 5px 13px #888888;
+}
+
+.button {
+    text-align: right;
+}
+
+.tableContent {
+    border: 1px solid #0da2b1;
+    width: 100%;
+    table-layout: fixed;
+    text-align: left;
+}
+
+.tableContent th{
+    background-color: #0da2b1;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.tableContent th, .tableContent td {
+    padding: 20px;
+}
+
+.tableContent td, .tableContent td::before {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tableContent td {
+    border: 1px solid #0da2b1;
+}
+
+.companyTable th:nth-child(1) {
+    width:20%;
+}
+
+.companyTable th:nth-child(2) {
+    width:15%;
+}
+
+.companyTable th:nth-child(3) {
+    width:25%;
+}
+
+.companyTable th:nth-child(4) {
+    width:25%;
+}
+
+.companyTable th:nth-child(5) {
+    width:15%;
+}
+
+.fa-edit:before, .fa-trash:before {
+    color: #0da2b1;
+    cursor: pointer;
+}
+
+.toolIcons li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.toolIcons li:last-child {
+    margin-right: 0;
+}
+
+.fa-edit:hover, .fa-trash:hover, .pagination li a:hover {
+    opacity:0.6;
+}
+
+/* Table styles end here */
+
+/* Pagination styles start here */
+
+.pagination {
+    text-align: center;
+}
+
+.pagination li {
+    display: inline-block;
+    padding: 30px 15px;
+}
+
+.pagination li a {
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.pagination .active {
+    color: #0da2b1;
+    font-weight: 600;
+}
+
+.pagination .disable {
+    color: #a09998ad;
+    cursor: default;
+}
+
+.pagination .disable:hover{
+    opacity:1;
+}
+
+/*Pagination styles end here*/
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+    height: 150px;
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+
+}
+
+/*magnific pop-up styles starts here*/
+
+.popup {
+    position: relative;
+    color: #ffffff;
+    padding: 20px;
+    max-width: 500px;
+    width:100%;
+    margin: 20px auto;
+    background-color: #0da2b1;
+}
+
+/* Magnific pop-up styles end here */
+
+.confirmButton {
+    background-color: #ffffff;
+    color: #0da2b1;
+}
+
+.cancelButton {
+    color: #ffffff;
+    background-color: #21262c;
+    margin-right: 15px;
+    opacity: 0.6;
+}
+
+.cancelButton:hover {
+    opacity: 1;
+}
+
+.mfp-close {
+    color: #21262c;
+    font-size: 40px;
+}
+
+.popupHeading {
+    padding-bottom: 30px;
+}
+
+.copyright {
+    line-height: 70px;
+}
+
+/* Add company page styles start from here */
+
+.formContent {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.genInput {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #0da2b1;
+    outline:none;
+    font-size: 16px;
+}
+
+.genInput:focus {
+    border: 1px solid #1a1a1a;
+}
+
+.formRow {
+    display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: row;
+}
+
+.formLeftContent {
+    width: 40%;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.formRightContent {
+    width: 60%;
+}
+
+.addForm label::after {
+    content: ":";
+}
+
+textarea {
+    resize: vertical;
+}
+
+.txtareaMd {
+    min-height: 200px;
+}
+
+/* Select2 styles start here */
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #0da2b1;
+    box-shadow: none;
+    border-radius: 0;
+    min-height: 41px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height:38px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px;
+}
+
+.select2-dropdown, .select2-container--default .select2-search--dropdown .select2-search__field {
+    border-radius: 0;
+    border: 1px solid #0da2b1;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: #0da2b1 transparent transparent transparent;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #0da2b1 transparent;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #0da2b1;
+    color: #ffffff;
+}
+
+ /* Select2 styles end here */
+
+ /* Datepicker styles start here */
+
+.xdsoft_datetimepicker .xdsoft_datepicker{
+    width:403px;
+}
+
+.xdsoft_datetimepicker,.xdsoft_datetimepicker .xdsoft_calendar th {
+    color: #0da2b1;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td:hover{
+    background: #0da2b1!important;
+}
+
+.select2-container--default .select2-selection--single:focus, .select2-dropdown, .select2-container--default .select2-search--dropdown .select2-search__field:focus {
+    outline: none;
+    border: 1px solid #1a1a1a;
+}
+
+/* Datepicker styles end here */
+
+/* Custom radio button starts here */
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #0da2b1;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*Custom radio button ends here*/
+
+/* Add company page styles end here */
+
+/* Responsive design starts here */
+
+@media only screen and (min-width: 850px) {
+
+    . {
+        display: block!important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .tableContent thead {
+        display: none;
+    }
+
+    .tableContent tr {
+        border-bottom: 2px dotted #0da2b1;
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .tableContent td {
+        display: block;
+        text-align: right;
+        border: none;
+        border-bottom: 1px solid #0da2b1;
+    }
+
+    .button {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .tableContent td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: 600;
+        max-width: 300px;
+        padding-right: 15px;
+    }
+
+    .tableContent td:last-child {
+        border-bottom: 0;
+    }
+
+    .tableContent {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .menuIcon {
+        display: inline-block;
+        font-size: 28px;
+        cursor: pointer;
+        color: #ffffff
+    }
+
+    .menuIcon:hover {
+        opacity: 0.6;
+    }
+
+    .menuItems {
+        display: none;
+    }
+
+    .showMenuItems {
+        display: block;
+    }
+
+    .floatedItem {
+        float: none;
+    }
+
+    .dropdownItems {
+        position: static;
+    }
+
+    .pageTitle {
+        padding-top: 50px;
+    }
+
+    .tableContent td {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        white-space: pre-wrap;
+        text-align: left;
+    }
+
+    .tableContent td:before {
+        padding-bottom: 10px;
+    }
+
+    .tablefieldset legend {
+        font-size: 18px;
+        padding: 0 15px;
+        background-color: #e9eaef;
+    }
+
+    .pagination li a {
+        font-size: 16px;
+    }
+
+    .pagination li {
+        padding: 10px 3px;
+    }
+
+    .tablefieldset {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .pageTitle {
+        padding-top: 25px;
+    }
+    
+    .popup .popupHeading {
+        padding-top:30px;
+    }
+
+    .fa-edit, .fa-trash {
+        margin-top: 15px;
+    }
+
+    .tableContent .toolIcons {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    }
+
+}
+
+/* Responsive design ends here */
