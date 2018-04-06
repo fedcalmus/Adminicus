@@ -518,10 +518,6 @@ footer {
 
 /* Custom file upload button styles end here */
 
-textarea {
-    resize: vertical;
-}
-
 .txtareaMd {
     min-height: 200px;
 }
