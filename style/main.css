@@ -61,13 +61,8 @@ a {
     box-sizing: border-box;
 }
 
-h1 {
-    font-size: 28px;
-    font-weight: 600;
-}
-
-h3{
-    font-size: 20px;
+textarea {
+    resize: vertical;
 }
 
 /* Reset CSS ends here */
@@ -185,6 +180,16 @@ header {
 /* Breadcrumb end here */
 
 /* Fieldset and legend styles start from here */
+
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 20px;
+}
 
 .tablefieldset {
     border: 2px solid #0da2b1;
@@ -688,13 +693,6 @@ footer {
 
     .tableContent {
         border: none;
-    }
-}
-
-@media only screen and (min-width: 850px) {
-
-    . {
-        display: block!important;
     }
 }
 
