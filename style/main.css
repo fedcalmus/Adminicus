@@ -456,30 +456,30 @@ textarea {
 
 /* Select2 styles start here */
 
-.select2-container--default .select2-selection--single{
+.select2-container--default .select2-selection--single {
     border: 1px solid #0da2b1;
     border-radius: 0;
     min-height: 41px;
 }
 
-.select2-container--default .select2-selection--single .select2-selection__rendered{
+.select2-container--default .select2-selection--single .select2-selection__rendered {
     line-height:38px;
 }
 
-.select2-container--default .select2-selection--single .select2-selection__arrow{
+.select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 38px;
 }
 
-.select2-dropdown, .select2-container--default .select2-search--dropdown .select2-search__field{
+.select2-dropdown, .select2-container--default .select2-search--dropdown .select2-search__field {
     border-radius: 0;
     border: 1px solid #0da2b1;
 }
 
-.select2-container--default .select2-selection--single .select2-selection__arrow b{
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
     border-color: #0da2b1 transparent transparent transparent;
 }
 
-.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
     border-color: transparent transparent #0da2b1 transparent;
 }
 
@@ -500,7 +500,7 @@ textarea {
     color: #0da2b1;
 }
 
-.xdsoft_datetimepicker .xdsoft_calendar td:hover{
+.xdsoft_datetimepicker .xdsoft_calendar td:hover {
     background: #0da2b1!important;
 }
 
