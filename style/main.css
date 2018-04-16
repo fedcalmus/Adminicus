@@ -66,7 +66,7 @@ h1 {
     font-weight: 600;
 }
 
-h3 {
+h3{
     font-size: 20px;
 }
 
@@ -206,6 +206,7 @@ header {
 
 .btn {
     border: none;
+    outline: none;
     text-align: center;
     font-size: 18px;
     font-weight: 300;
@@ -254,7 +255,7 @@ header {
     text-align: left;
 }
 
-.tableContent th{
+.tableContent th {
     background-color: #0da2b1;
     font-size: 18px;
     color: #ffffff;
@@ -356,10 +357,9 @@ footer {
     left:0;
     bottom:0;
     width:100%;
-
 }
 
-/* magnific pop-up styles starts here */
+/* Magnific pop-up styles starts here */
 
 .popup {
     position: relative;
@@ -410,26 +410,6 @@ footer {
     margin: 0 auto;
 }
 
-.formRow {
-    display:flex;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    justify-content: center;
-    padding: 30px;
-}
-
-.formRightContent {
-    width: 60%;
-}
-
-.formLeftContent {
-    width: 40%;
-    padding-right: 15px;
-    text-align: right;
-}
-
 .genInput {
     width: 100%;
     padding: 12px;
@@ -442,24 +422,123 @@ footer {
     border: 1px solid #1a1a1a;
 }
 
+.formRow {
+    display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    padding: 30px;
+    flex-direction: row;
+}
+
+.formLeftContent {
+    width: 40%;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.formRightContent {
+    width: 60%;
+}
+
 .addForm label::after {
     content: ":";
 }
 
-textarea {
-    resize: vertical;
+/* Custom upload button styles start here */
+
+.file-upload {
+    background-color: #ffffff;
+    padding: 20px;
 }
+
+.file-upload-btn {
+    width: 100%;
+    color: #ffffff;
+    background: #0da2b1;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.file-upload-btn:hover {
+    background: #1a1a1a;
+    opacity:0.9;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image-upload-wrap {
+    margin: 20px 0;
+    border: 1px dashed #0da2b1;
+    position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+    opacity: 0.8;
+}
+
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    padding: 60px 0;
+}
+
+.file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Custom file upload button styles end here */
 
 .txtareaMd {
     min-height: 200px;
+}
+
+.addFormButtons {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.addButton {
+    background-color: #0da2b1;
+    color:#ffffff;
 }
 
 /* Select2 styles start here */
 
 .select2-container--default .select2-selection--single {
     border: 1px solid #0da2b1;
+    box-shadow: none;
     border-radius: 0;
     min-height: 41px;
+    font-family: 'Lato', sans-serif;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
@@ -488,13 +567,14 @@ textarea {
     color: #ffffff;
 }
 
+.select2-container--default .select2-selection--single:focus, .select2-dropdown, .select2-container--default .select2-search--dropdown .select2-search__field:focus {
+    outline: none;
+    border: 1px solid #1a1a1a;
+}
+
 /* Select2 styles end here */
 
 /* Datepicker styles start here */
-
-.xdsoft_datetimepicker .xdsoft_datepicker{
-    width:403px;
-}
 
 .xdsoft_datetimepicker,.xdsoft_datetimepicker .xdsoft_calendar th {
     color: #0da2b1;
@@ -518,6 +598,7 @@ textarea {
 [type="radio"]:not(:checked) + label {
     position: relative;
     padding-left: 28px;
+    padding-right: 5px;
     cursor: pointer;
     line-height: 20px;
     display: inline-block;
@@ -610,6 +691,13 @@ textarea {
     }
 }
 
+@media only screen and (min-width: 850px) {
+
+    . {
+        display: block!important;
+    }
+}
+
 @media only screen and (max-width: 850px) {
 
     .menuIcon {
@@ -685,7 +773,7 @@ textarea {
     }
 
     .popup .popupHeading {
-        padding-top:30px;
+        padding-top: 30px;
     }
 
     .fa-edit, .fa-trash {
@@ -699,6 +787,27 @@ textarea {
         display: -ms-flexbox;
         display: -webkit-flex;
         flex-direction: row;
+
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    .formRow {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 15px 0;
+    }
+
+    .formLeftContent {
+        padding-right: 0;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .formRightContent{
+        width: 100%;
     }
 }
 
