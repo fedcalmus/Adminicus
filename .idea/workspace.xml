@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65cd464d-7e0b-48e2-8ddf-b4c947c983c1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fa-brands.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fa-brands.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fa-regular.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fa-regular.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fa-solid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fa-solid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fontawesome-all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fontawesome-all.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fontawesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/css/fontawesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-brands-400.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-brands-400.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-brands-400.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-brands-400.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-brands-400.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-regular-400.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-regular-400.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-regular-400.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-regular-400.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-regular-400.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-solid-900.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-solid-900.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-solid-900.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-solid-900.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-fonts-with-css/webfonts/fa-solid-900.woff2" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addCompany.html" afterPath="$PROJECT_DIR$/addCompany.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main.css" afterPath="$PROJECT_DIR$/style/main.css" />
-    </list>
+    <list default="true" id="65cd464d-7e0b-48e2-8ddf-b4c947c983c1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -346,12 +317,12 @@
       <workItem from="1522912808422" duration="10838000" />
       <workItem from="1522994977140" duration="8000" />
       <workItem from="1522995458388" duration="22638000" />
-      <workItem from="1523863717813" duration="1515000" />
+      <workItem from="1523863717813" duration="1724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173277000" />
+    <option name="totallyTimeSpent" value="173486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
